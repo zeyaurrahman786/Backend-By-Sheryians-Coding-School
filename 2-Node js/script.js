@@ -154,9 +154,9 @@
 
 // http and https :------------------------------------------------
 
-const http = require('http');
+// const http = require('http');
 
-const server = http.createServer(function(req, res){
-    res.end("Welcome to the Internet Explorer server.");
-})
-server.listen(3000);
+// const server = http.createServer(function(req, res){
+//     res.end("Welcome to the Internet Explorer server.");
+// })
+// server.listen(3000);
