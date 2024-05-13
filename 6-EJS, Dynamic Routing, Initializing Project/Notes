@@ -1,0 +1,33 @@
+Day 6 :->
+
+
+
+initialize a project with npm  -> npm init -y
+express install  -> npm i express
+
+
+
+setting up parsers for form
+
+
+setting up ejs for ejs pages  -> 
+                                install :- npm i ejs
+                                setup ejs as a view engine
+
+
+
+setting up public static files
+
+
+
+
+Dynamic Routing :- 
+                    dynamic routing
+                    how to get data coming from frontend at backend route
+
+
+sabse pahle browser par jao
+url likhiye apna jo aapko chahiye and enter dabaiye (Ex. :- localhost:3000/profile/zeyaur)
+ab us url route ko create kriye
+response bhejiye kuch bhi
+ab usi url ko agar dynamic banaana hai to realise karo konsa part dynamic hai aur us part ke ge route main : lga do
