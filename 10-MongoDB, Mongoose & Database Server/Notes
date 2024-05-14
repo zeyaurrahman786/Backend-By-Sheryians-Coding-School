@@ -1,0 +1,79 @@
+Day 10 :-> MongoDB
+
+
+
+/*
+    MongoDB is a popular, open-source, NoSQL database management system that stores data in a flexible, JSON-like format known as BSON (Binary JSON). It is designed for scalability, high availability, and performance, making it suitable for handling large volumes of structured, semi-structured, and unstructured data across distributed servers.
+
+    One of MongoDB's key features is its document-oriented data model, where data is stored in flexible documents rather than rigid, table-based structures as in traditional relational databases. This flexibility allows developers to easily iterate and evolve their data models as application requirements change.
+
+    MongoDB also supports various features such as ad hoc queries, indexing, aggregation, and replication, which enable efficient data retrieval and manipulation. Additionally, it provides built-in support for horizontal scalability through sharding, allowing databases to scale out across multiple servers to handle increasing loads.
+
+    Overall, MongoDB is widely used in modern web and mobile applications, big data processing, content management systems, and real-time analytics, among other use cases, due to its flexibility, scalability, and ease of use.
+
+
+
+
+
+
+
+    MongoDB ek prasiddh, open-source, NoSQL (Non-Relational) database management system hai jo data ko ek flexible JSON-like format mein store karta hai, jo ki BSON (Binary JSON) ke roop mein jaana jaata hai. Yeh scalability, high availability, aur performance ke liye design kiya gaya hai, jisse ki yeh bade volumes mein structured, semi-structured, aur unstructured data ko distributed servers par handle karne ke liye upayukt ho.
+
+    MongoDB ka ek mukhya feature hai uska document-oriented data model, jismein data rigid, table-based structures ke bajaay flexible documents mein store hota hai, jaisa ki traditional relational databases mein hota hai. Yeh flexibility developers ko asani se apne data models ko iterate aur evolve karne ki anumati deta hai jab application requirements badalte hain.
+
+    MongoDB mein alag-alag features jaise ki ad hoc queries, indexing, aggregation, aur replication bhi support ki jaati hai, jo efficient data retrieval aur manipulation ko allow karta hai. Iske alawa, yeh sharding ke through horizontal scalability ko bhi built-in support karta hai, jisse databases ko multiple servers par scale out karke badhate loads ko handle karne ki anumati milti hai.
+
+    Samanyatah, MongoDB aaj kal ke web aur mobile applications, big data processing, content management systems, aur real-time analytics jaise use cases mein vyapak roop se istemal kiya jaata hai, uski flexibility, scalability, aur use karne mein aasaani ke karan.
+*/
+
+
+
+
+
+
+
+Data Storage :-
+                Aisa kuch jaha par hum saare users ki informations ya kio bhi data store kar sakte hai.
+                database
+
+
+Types of DBS :-
+                SQL | NoSQL
+
+                SQL :- data ko ek roop mein rakhna - as a tables
+
+                NoSQL :- isme objects way me data store hota hai 
+                Ex. {
+                        name : "Zeyaur",
+                        age : 21,
+                        country : "India",
+                    }
+
+
+What and Why :-
+
+
+Terminologies - collections, documents, schemas, key, models :-
+
+
+
+Note :- Backend me do Server hota hai Application Server and Database Server.
+
+        Application Server :- Routes handle karta hai aur jo request ko accept karta hai, jo hum frontend se requst karte hai . Data ke kaam ke siwa sab kuch application server karta hai. 
+        Ex. Login, Logout karna etc...
+
+        Database Server :- 
+
+
+
+
+Database -> Collections -> Document 
+
+
+
+
+CODE                                           DATABASE
+--------------------------       --------------------------------
+moongoose.connect            ->                database create
+model create                 ->                collection create
+CREATE code                  ->                document create
