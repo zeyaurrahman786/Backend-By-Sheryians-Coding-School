@@ -1,5 +1,11 @@
 // Day 7 :-)
 
+// Day 8 :-) Putting Theory into Practice
+
+// Day 9 :-) Edit fature code 
+
+// Three lectures merge in one folder or file in one project.
+
 
 
 
@@ -44,6 +50,17 @@ app.get('/file/:filename', function(req, res){
         res.render('show', {filename: req.params.filename, filedata: filedata});
     })
 
+})
+
+app.get('/edit/:filename', function(req, res){
+    res.render('edit', {filename: req.params.filename});
+})
+
+app.post('/edit', function(req, res){
+    // console.log(req.body);
+    fs.rename(`./files/${req.body.previous}`, `./files/${req.body.new}`, function(err){
+        res.redirect('/');
+    })
 })
 
 app.post('/create', function(req, res){
