@@ -40,6 +40,7 @@ app.get('/', function(req, res){
 app.get('/file/:filename', function(req, res){
     
     fs.readFile(`./files/${req.params.filename}`, "utf-8", function(err, filedata){
+        // console.log(filedata);
         res.render('show', {filename: req.params.filename, filedata: filedata});
     })
 
@@ -51,4 +52,4 @@ app.post('/create', function(req, res){
     })
 })
 
-app.listen(5000);
+app.listen(3000);
