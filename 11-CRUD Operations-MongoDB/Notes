@@ -1,0 +1,21 @@
+Day 11 :-> 
+
+
+Installations :->
+                    npm init -y
+                    npm i express
+                    npm i mongoose
+
+
+
+
+
+MongoDb Installation
+
+MongoDB Connection
+
+Mongoose Schema
+
+Creating Model
+
+CRUD  -> Create, Read, Update and Delete
