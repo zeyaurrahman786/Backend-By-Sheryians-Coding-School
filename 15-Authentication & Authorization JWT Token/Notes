@@ -1,0 +1,29 @@
+Day 15 :-> 
+
+
+
+installation :- 
+                npm init -y
+                npm i express
+                npm i ejs
+                npm i jsonwebtoken
+                npm i bcrypt
+                nmp i cookie-parser
+
+
+
+1. Create user account :-
+                            mongoose
+                            schema
+                            model
+                            userCreate -> password -> hash
+                            jwt token -> cookie
+
+                            login -> token -> decrypt -> email
+
+
+
+Code run :- node "g:\Backend By Sheryians Coding School\15-Authentication & Authorization JWT Token\app.js"
+
+
+
