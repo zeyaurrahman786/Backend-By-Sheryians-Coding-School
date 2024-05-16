@@ -1,0 +1,63 @@
+Day 14 :-> Authentiction & Authorization 
+
+
+Authentication aur Authorization dono hi computer security ke concepts hain jo information systems ko protect karne me madad karte hain.
+
+1. Authentication (प्रमाणीकरण) :-
+   - Authentication ka mukhya uddeshya user ke identity ko verify karna hota hai. Jab koi user kisi system ya service me login karta hai, to authentication process us user ke dawara diye gaye credentials (jaise username, password, fingerprint, etc.) ko verify karta hai.
+   - Authentication ka example hai jab aap kisi website me apne username aur password enter karke login karte hain. Yeh process aapko verify karta hai ki aap wahi user hain jo keh rahe hain.
+
+2. Authorization (अधिकारिकरण) :-
+   - Authorization user ko determine karta hai ki woh kis resources, files, ya services ko access kar sakta hai aur kis level tak uske access ki permissions hain.
+   - Ek baar jab authentication successful ho jata hai, tab system authorization ke through decide karta hai ki user ko kya kya permissions milti hain. Yeh permissions system admin ya policy ke according set ki jati hain.
+   - For example, agar aap ek organization ke employee hain to aapke pass organization ke confidential files ko access karne ki permissions ho sakti hain, lekin agar aap ek guest user hain to aapko sirf public information tak hi access ki permissions mil sakti hain.
+
+In dono concepts ka sahi taur par implement karna bahut zaroori hai taaki kisi bhi system ya information ko unauthorized access se bachaya ja sake.
+
+
+
+
+
+
+
+Cookies and Session :->
+
+
+Cookies aur sessions dono web development mein important concepts hain jo user experience ko improve karne aur user data ko manage karne mein madad karte hain.
+
+1. Cookies :-
+   - Cookies small text files hote hain jo web server dwara user ke browser mein store kiye jate hain. Ye browser ko website ke specific information ko remember karne ki permission dete hain.
+   - Cookies user ko identify karne aur unke preferences ko save karne mein madad karte hain, jaise ki language preference, login details, shopping cart items, etc.
+   - Cookies client-side hote hain, matlab wo user ke device ya browser mein store hote hain.
+   - Cookies expire time define karte hain, jiske baad wo automatically delete ho jate hain.
+   - Cookies sensitive information ko store kar sakte hain, isliye secure usage ka dhyan rakhna important hai.
+
+2. Session :-
+   - Session server-side storage mechanism hai jo temporary data ko maintain karta hai user ke browsing session ke dauran.
+   - Session data server par store hota hai, usually server ke memory ya database mein.
+   - Ek session ID client ko provide kiya jata hai jab wo website visit karta hai. Ye session ID client ke browser ke through server tak pahunchta hai.
+   - Ye session ID server ko user ko identify karne mein madad karta hai, aur server session data ko retrieve karke user ke interactions ko maintain karta hai.
+   - Sessions usually automatically expire ho jate hain jab user inactive ho jata hai ya session timeout hota hai.
+
+In summary, cookies client-side storage mechanism hain jo user preferences aur information ko browser mein store karte hain, jabki sessions server-side storage mechanism hain jo temporary data ko maintain karte hain user ke browsing session ke dauran.
+
+
+
+
+
+
+
+Sabse pahle humein kuchh cheejein seekhni hai alag alag :-
+
+1. Cookie kaise set karte hai aur read karte hai
+2. Bcrypt kaise use karte hai for password encryption and decryption 
+3. JWT kya hai, JWT mein data kaise store karein and bahaar nikalein
+
+
+
+
+
+installation :-
+                npm init -y
+                npm i jsonwebtoken bcrypt
+                npm i cookie-parser
