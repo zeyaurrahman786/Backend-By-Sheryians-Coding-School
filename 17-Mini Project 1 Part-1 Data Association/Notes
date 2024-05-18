@@ -1,0 +1,22 @@
+Day 17 :-> 
+
+
+
+installation :-
+                npm init -y
+                npm i express
+                npm i mongoose
+                npm i ejs
+                npm i bcrypt 
+                npm i jsonwebtoken
+                npm i cookie-parser
+
+
+
+Mini Project :- Users Post likh paayenge 
+                Login and register
+                Logout
+                Users create karne hai
+                Post Creation
+                Post like
+                Post delete
