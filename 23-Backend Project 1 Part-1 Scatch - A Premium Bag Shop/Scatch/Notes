@@ -1,0 +1,8 @@
+installation :- 
+                npm inti -y
+                npm i express
+                npm i mongoose
+                npm i cookie-parser
+                npm i jsonwebtoken
+                npm i bcrypt
+                npm i multer
