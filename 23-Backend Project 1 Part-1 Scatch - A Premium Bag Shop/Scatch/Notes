@@ -1,8 +1,50 @@
+Project :- A Premium Bag Shop
+
+
+
 installation :- 
                 npm inti -y
                 npm i express
+                npm i ejs
                 npm i mongoose
                 npm i cookie-parser
                 npm i jsonwebtoken
                 npm i bcrypt
                 npm i multer
+
+
+
+
+
+
+Frontend :-
+            user Model :- (User Details)
+
+            full Name - string
+            email - string
+            password  - string
+            cart - array
+            isAdmin - boolean
+            orders - array
+            contact - number
+            picture - database
+
+
+
+            product :- (Product Details)
+            
+            image
+            name
+            price
+            discount
+            bgColor
+            panelColor
+            textColor
+
+
+
+
+
+
+
+            
