@@ -1,8 +1,8 @@
-// Day 7 :-)
+// Day 7 :-) Hands-on Practice from Past Lessons
 
 // Day 8 :-) Putting Theory into Practice
 
-// Day 9 :-) Edit fature code 
+// Day 9 :-) Edit feature code 
 
 // Three lectures merge in one folder or file in one project.
 
