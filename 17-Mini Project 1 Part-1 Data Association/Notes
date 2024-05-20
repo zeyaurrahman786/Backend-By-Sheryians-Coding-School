@@ -10,6 +10,10 @@ Day 19 :-> Mini Project 1 Part-3 | Data Association
 Day 20 :-> Multer - multiplepart/form-data 
 
 
+Day 21 :-> Multer - Proper Folder Structure
+
+
+
 
 installation :-
                 npm init -y
@@ -30,3 +34,7 @@ Mini Project :- Users Post likh paayenge
                 Post like
                 Post edit
                 Post delete
+
+
+
+                
