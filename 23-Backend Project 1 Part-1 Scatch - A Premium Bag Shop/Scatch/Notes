@@ -7,7 +7,10 @@ Day 23 :-> Backend Project 1 Part-1 | Scatch - A Premium Bag Shop
 Day 24 :-> Backend Project 1 Part-2 | Scatch | Modeling the Database
 
 
-Day 25 :-> Backend Project 1 Part-3 | Scatch | Separation of Concerns 
+Day 25 :-> Backend Project 1 Part-3 | Scatch | Separation of Concerns
+
+
+Day 26 :-> Backend Project 1 Part-4 | Scatch | Development/Production Setup
 
 
 
@@ -20,6 +23,17 @@ installation :-
                 npm i jsonwebtoken
                 npm i bcrypt
                 npm i multer
+                npm i debug
+
+                set DEBUG=development:*
+                set DEBUG=
+
+                npm i config
+
+                set NODE_ENV=development
+
+
+
 
 
 
